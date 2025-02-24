@@ -7,4 +7,5 @@ urlpatterns = [
     path('create/', views.create_book, name='create_book'),
     path('edit/<int:pk>/', views.edit_book, name='edit_book'),
     path('delete/<int:pk>/', views.delete_book, name='delete_book'),
+    path('reverse-string/', views.reverse_string_view, name='reverse_string'),
 ]
